@@ -1,33 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Kagura | Web Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kagura | Web Portfolio</title>
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-	<!-- External CSS -->
-	<link rel="stylesheet" href="./style.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./style.css">
 
-	<!-- Google Fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="container-fluid">
-	<section class="text-center mt-5" id="landing">
-		<h1 class="text-black">Full-Stack Web Developer</h1>
-		<p class="text-black">Hi! My name is Kyle.</p>
-		<img src="./images/kagurag.gif" class="img-fluid" id="profile">
-		<a href=www.linkedin.com/in/renzo-kyle-tumaob-140552229 class="btn btn-dark btn-lg mt-3">Let's Work Together</a>
-		</section>
-	</div>
+    <section class="text-center mt-5" id="landing">
+        <h1 class="text-black">Full-Stack Web Developer</h1>
+        <p class="text-black">Hi! My name is Kyle.</p>
+        <img src="./images/kagurag.gif" class="img-fluid" id="profile">
+        <a href="https://kenzoryle.github.io/fcp-portfolio/www.linkedin.com/in/renzo-kyle-tumaob-140552229" class="btn btn-dark btn-lg mt-3" id="linkedin-btn">Let's Work Together</a>
+    </section>
+</div>
 
 <!-- Bootstrap JS -->
-	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+<script>
+    // Update the href attribute of the LinkedIn button with your LinkedIn profile link
+    document.getElementById("linkedin-btn").addEventListener("click", function() {
+        this.href = "https://www.linkedin.com/in/renzo-kyle-tumaob-140552229";
+    });
+</script>
 </body>
-</html
+</html>
